@@ -1,4 +1,3 @@
-Task06.c
 #include <stdio.h> 
 int main(void) 
 { 
