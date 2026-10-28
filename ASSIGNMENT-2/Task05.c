@@ -1,4 +1,3 @@
-Task05.c
 #include <stdio.h> 
 #include "Task05_tariff.h" 
 long compute_bill(int units) 
