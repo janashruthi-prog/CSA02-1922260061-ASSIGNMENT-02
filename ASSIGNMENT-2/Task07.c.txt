@@ -1,0 +1,12 @@
+Task07.c
+#include <stdio.h> 
+int main(void) 
+{ 
+printf("5 / 2 = %d\n", 5 / 2);
+printf("(double)(5 / 2) = %.1f\n", (double)(5 / 2));
+printf("5.0 / 2 = %.1f\n", 5.0 / 2);
+printf("0.1 + 0.2 = %.17f\n", 0.1 + 0.2);
+long long paise = 16250;
+printf("Integer paise: Rs %lld.%02lld\n", paise / 100, paise % 100);
+return 0;
+}

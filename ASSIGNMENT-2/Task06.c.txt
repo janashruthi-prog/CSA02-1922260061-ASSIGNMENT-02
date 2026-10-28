@@ -1,0 +1,22 @@
+Task06.c
+#include <stdio.h> 
+int main(void) 
+{ 
+int household_id;
+unsigned int units;
+long long bill_paise;
+printf("Enter household ID, units and bill amount in paise: ");
+if (scanf("%d %u %lld", &household_id, &units, &bill_paise) != 3) { 
+fprintf(stderr, "Invalid input. Enter an integer ID, units, and paise.\n");
+return 1;
+} 
+if (bill_paise < 0) { 
+fprintf(stderr, "Bill cannot be negative.\n");
+return 1;
+} 
+printf("Household: %d\n", household_id);
+printf("Units: %u\n", units);
+printf("Bill: Rs %lld.%02lld\n", bill_paise / 100, bill_paise % 100);
+Python Programming Assignment — Student Template
+return 0;
+}
